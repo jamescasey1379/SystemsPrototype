@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SystemsPrototype",
+    "\\SystemsPrototype\\bin\\Debug",
+    "\\SystemsPrototype\\obj"
   ],
+  "SelectedNode": "\\SystemsPrototype\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
