@@ -27,7 +27,21 @@ namespace SystemsPrototype
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CeremonyRequests CR = new CeremonyRequests();
+            RegisterNewMember CR = new RegisterNewMember();
+            var host = new Window();
+            host.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            OnlineCampaignContribution donate = new OnlineCampaignContribution();
+            var host = new Window();
+            host.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            CeremonyRequests donate = new CeremonyRequests();
             var host = new Window();
             host.Show();
         }
