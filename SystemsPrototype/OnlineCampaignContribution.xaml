@@ -32,7 +32,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="354,146,0,0" TextWrapping="Wrap" Text="Credit Card Number" VerticalAlignment="Top" Background="#FFF9F9F9"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="472,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="cbotype" HorizontalAlignment="Left" Margin="472,118,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
-        <Button x:Name="btnsubmitpayment" Content="Submit Payment" HorizontalAlignment="Left" Margin="472,296,0,0" VerticalAlignment="Top" Width="120" Click="btnsubmitpayment_Click" Background="#FFD15F5F"/>
+        <Button x:Name="btnsubmitpayment" Content="Submit Payment" HorizontalAlignment="Left" Margin="472,296,0,0" VerticalAlignment="Top" Width="120" Click="btnsubmitpayment_Click" Background="#FFDEDBDB"/>
         <TextBlock HorizontalAlignment="Left" Margin="260,56,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Background="White"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="315,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Image x:Name="imgcampaign" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="morerejoice.jfif"/>
