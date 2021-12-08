@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="OnlineCampaignContribution" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="116,118,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,175,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,237,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,265,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,293,0,0" TextWrapping="Wrap" Text="Zipcode" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,203,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,146,0,0" TextWrapping="Wrap" Text="Middle Initial" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="354,118,0,0" TextWrapping="Wrap" Text="Payment Type" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="354,175,0,0" TextWrapping="Wrap" Text="Expiration Date" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="472,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="354,203,0,0" TextWrapping="Wrap" Text="Security Code" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="472,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="354,146,0,0" TextWrapping="Wrap" Text="Credit Card Number" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="472,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="472,118,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnsubmitpayment" Content="Submit Payment" HorizontalAlignment="Left" Margin="472,296,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,56,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="315,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="imgcampaign" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+
     </Grid>
 </Window>

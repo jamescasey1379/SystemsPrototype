@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="CeremonyRequests" Height="450" Width="800">
     <Grid>
-        
+        <Calendar HorizontalAlignment="Left" Margin="414,115,0,0" VerticalAlignment="Top" Height="182" Width="205"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187,124,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="274,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187,181,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="274,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187,152,0,0" TextWrapping="Wrap" Text="Middle Initial" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="274,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,94,0,0" TextWrapping="Wrap" Text="Select Date for Ceremony" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="274,209,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="187,209,0,0" TextWrapping="Wrap" Text="Ceremony Type" VerticalAlignment="Top"/>
+        <Button x:Name="btnsubmitceremony" Content="Submit" HorizontalAlignment="Left" Margin="274,257,0,0" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
