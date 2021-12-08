@@ -18,6 +18,6 @@
         <ComboBox HorizontalAlignment="Left" Margin="274,209,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="187,209,0,0" TextWrapping="Wrap" Text="Ceremony Type" VerticalAlignment="Top"/>
         <Button x:Name="btnsubmitceremony" Content="Submit" HorizontalAlignment="Left" Margin="274,257,0,0" VerticalAlignment="Top" Width="120"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="morerejoice.jfif"/>
     </Grid>
 </Window>
