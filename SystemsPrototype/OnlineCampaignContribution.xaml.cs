@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SystemsPrototype
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for OnlineCampaignContribution.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class OnlineCampaignContribution : Window
     {
-        public MainWindow()
+        public OnlineCampaignContribution()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            CeremonyRequests CR = new CeremonyRequests();
-            var host = new Window();
-            host.Show();
         }
     }
 }

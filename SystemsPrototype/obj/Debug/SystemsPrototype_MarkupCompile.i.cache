@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\James\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\
+C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\
 SystemsPrototype
 none
 false
 DEBUG;TRACE
-C:\Users\James\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\App.xaml
-11151548125
+C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\App.xaml
+4552203829
 
-61434861427
+9-1420170479
 13-1505183044
-MainWindow.xaml;
+CeremonyRequests.xaml;MainWindow.xaml;OnlineCampaignContribution.xaml;RegisterNewMember.xaml;
 
 True
 
