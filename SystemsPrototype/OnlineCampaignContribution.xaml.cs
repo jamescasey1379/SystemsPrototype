@@ -22,6 +22,24 @@ namespace SystemsPrototype
         public OnlineCampaignContribution()
         {
             InitializeComponent();
+            List<string> types = new List<string>();
+            types.Add("Mastercard");
+            types.Add("Visa");
+
+            foreach (var item in types)
+            {
+                cbotype.Items.Add(item);
+            }
+        }
+
+        private void btnsubmitpayment_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success");
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

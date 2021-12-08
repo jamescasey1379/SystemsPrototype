@@ -119,6 +119,7 @@
     <Resource Include="crossmain.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="background.jpg" />
     <Content Include="morerejoice.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -27,23 +27,26 @@ namespace SystemsPrototype
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RegisterNewMember CR = new RegisterNewMember();
+            RegisterNewMember newMember = new RegisterNewMember();
             var host = new Window();
+            host.Content = newMember.Content;
             host.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             OnlineCampaignContribution donate = new OnlineCampaignContribution();
-            var host = new Window();
-            host.Show();
+            var host2 = new Window();
+            host2.Content = donate.Content;
+            host2.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            CeremonyRequests donate = new CeremonyRequests();
-            var host = new Window();
-            host.Show();
+            CeremonyRequests CR = new CeremonyRequests();
+            var host3 = new Window();
+            host3.Content = CR.Content;
+            host3.Show();
         }
     }
 }

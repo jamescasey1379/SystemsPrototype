@@ -19,3 +19,4 @@ C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj
 C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\SystemsPrototype.csproj.CoreCompileInputs.cache
 C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\SystemsPrototype.exe
 C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\SystemsPrototype.pdb
+C:\Users\crown\Source\Repos\jamescasey1379\SystemsPrototype\SystemsPrototype\obj\Debug\SystemsPrototype_Content.g.cs

@@ -7,14 +7,17 @@
         mc:Ignorable="d"
         Title="RegisterNewMember" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="255,112,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="background.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="255,112,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Background="White"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="336,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnsubmitnewmember" Content="Submit Registration" HorizontalAlignment="Left" Margin="336,263,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnsubmitnewmember" Content="Submit Registration" HorizontalAlignment="Left" Margin="336,263,0,0" VerticalAlignment="Top" Width="120" Click="btnsubmitnewmember_Click"/>
         <Image x:Name="newmemberimg" HorizontalAlignment="Left" Height="68" Margin="23,14,0,0" VerticalAlignment="Top" Width="100" Source="morerejoice.jfif"/>
-        <TextBlock HorizontalAlignment="Left" Margin="255,140,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="255,168,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="255,196,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="255,224,0,0" TextWrapping="Wrap" Text="Zipcode" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,140,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,168,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,196,0,0" TextWrapping="Wrap" Text="State" VerticalAlignment="Top" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,224,0,0" TextWrapping="Wrap" Text="Zipcode" VerticalAlignment="Top" Background="White"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="336,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="336,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="336,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

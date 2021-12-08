@@ -7,12 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="CeremonyBTN" Content="Ceremony Requests" HorizontalAlignment="Left" Margin="275,54,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click" Height="32"/>
-        <Button x:Name="donateBTN" Content="Button" HorizontalAlignment="Left" Margin="410,54,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_1" Height="32"/>
-        <Button x:Name="RequestBTN" Content="Button" HorizontalAlignment="Left" Margin="544,54,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_2" Height="32"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="background.jpg"/>
+        </Grid.Background>
+        <Button x:Name="CeremonyBTN" Content="Ceremony Requests" HorizontalAlignment="Left" Margin="170,54,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click" Height="32"/>
+        <Button x:Name="donateBTN" Content="Online Campaign Contribution" HorizontalAlignment="Left" Margin="350,54,0,0" VerticalAlignment="Top" Width="168" Click="Button_Click_1" Height="32"/>
+        <Button x:Name="RequestBTN" Content="Ceremony Requests" HorizontalAlignment="Left" Margin="529,54,0,0" VerticalAlignment="Top" Width="169" Click="Button_Click_2" Height="32"/>
         <Image x:Name="topleftimg" HorizontalAlignment="Left" Height="68" Margin="53,54,0,0" VerticalAlignment="Top" Width="100" Source="morerejoice.jfif"/>
-        <Image x:Name="mainimg" HorizontalAlignment="Left" Height="220" Margin="265,100,0,0" VerticalAlignment="Top" Width="446" Source="crossmain.jpg"/>
-        <ProgressBar HorizontalAlignment="Left" Height="12" Margin="396,325,0,0" VerticalAlignment="Top" Width="187"/>
+        <Image x:Name="mainimg" HorizontalAlignment="Left" Height="220" Margin="210,102,0,0" VerticalAlignment="Top" Width="446" Source="crossmain.jpg"/>
+        <ProgressBar HorizontalAlignment="Left" Height="12" Margin="341,327,0,0" VerticalAlignment="Top" Width="187"/>
 
     </Grid>
 </Window>

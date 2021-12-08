@@ -23,5 +23,10 @@ namespace SystemsPrototype
         {
             InitializeComponent();
         }
+
+        private void btnsubmitnewmember_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Success");
+        }
     }
 }
